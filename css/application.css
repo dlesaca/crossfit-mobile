@@ -19,7 +19,7 @@ body {
   color: #fff; }
 
 .hype-image {
-  max-width: 100%;
+  width: 100%;
   margin: 20px 0; }
 
 #site-wrapper {
@@ -42,7 +42,8 @@ body {
   position: absolute;
   top: 0;
   left: -300px;
-  background: #484144; }
+  background: #484144;
+  height: 1000px; }
 
 #site-wrapper.show-nav #site-canvas {
   -webkit-transform: translateX(300px);
@@ -97,6 +98,8 @@ body {
   display: inline-block;
   color: #fff;
   font-family: impact; }
+  .site-title a, .site-title a:hover, .site-title a:focus, .site-title a:active {
+    color: #fff; }
 
 .site-nav {
   padding: 0; }
